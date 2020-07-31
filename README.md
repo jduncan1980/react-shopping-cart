@@ -76,16 +76,16 @@ Before you get started, please take a few minutes and get acquainted with this a
 **Before**
 
 ```js
-<Route exact path="/">
-  <Products products={products} addItem={addItem} />
+<Route exact path='/'>
+	<Products products={products} addItem={addItem} />
 </Route>
 ```
 
 **After**
 
 ```js
-<Route exact path="/">
-  <Products />
+<Route exact path='/'>
+	<Products />
 </Route>
 ```
 
